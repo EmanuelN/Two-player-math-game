@@ -2,9 +2,8 @@ class Player
   attr_accessor :health
   attr_reader :name
 
-  def initialize(my_name, id)
+  def initialize(my_name)
     @name = my_name
-    @id = id
     @health = 3
   end
 

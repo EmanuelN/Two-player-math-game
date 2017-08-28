@@ -1,8 +1,8 @@
 require './player'
 require './game'
 
-p1 = Player.new('Alice', 1)
-p2 = Player.new('Bob', 2)
+p1 = Player.new('Alice')
+p2 = Player.new('Bob')
 
 new_game = Game.new
 
