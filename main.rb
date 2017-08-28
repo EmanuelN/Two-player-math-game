@@ -1,8 +1,13 @@
 require './player'
 require './game'
 
-p1 = Player.new('Alice')
-p2 = Player.new('Bob')
+puts "Player 1 name: "
+p1_name = gets.chomp
+
+puts "Player 2 name: "
+p2_name = gets.chomp
+p1 = Player.new(p1_name)
+p2 = Player.new(p2_name)
 
 new_game = Game.new
 
